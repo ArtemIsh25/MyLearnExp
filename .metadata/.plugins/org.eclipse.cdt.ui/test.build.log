@@ -1,0 +1,10 @@
+20:15:11 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building target: test
+Invoking: Cross GCC Linker
+gcc  -o "test"  ./src/test.o   
+Finished building target: test
+ 
+
+20:15:12 Build Finished (took 1s.54ms)
+

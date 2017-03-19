@@ -1,0 +1,6 @@
+12:12:03 **** Incremental Build of configuration Default for project Copy of Hrard_way_iterat2_ex19_realy19 ****
+make all 
+gcc -o bin/hello bin/main.o bin/custom_include.o			
+
+12:12:09 Build Finished (took 6s.804ms)
+

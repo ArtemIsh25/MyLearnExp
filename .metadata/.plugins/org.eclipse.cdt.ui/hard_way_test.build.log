@@ -1,0 +1,13 @@
+11:28:10 **** Clean-only build of configuration Default for project hard_way_test ****
+make clean 
+echo 
+Режим вывода команд на экран (ECHO) отключен.
+rm main.o hello.exe
+makefile:12: recipe for target 'clean' failed
+process_begin: CreateProcess(NULL, rm main.o hello.exe, ...) failed.
+make (e=2): ═х єфрхЄё  эрщЄш єърчрээ√щ Їрщы.
+
+make: *** [clean] Error 2
+
+11:28:10 Build Finished (took 153ms)
+

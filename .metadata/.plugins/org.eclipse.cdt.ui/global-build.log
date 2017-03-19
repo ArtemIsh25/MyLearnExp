@@ -1,0 +1,675 @@
+15:20:27 **** Incremental Build of configuration Default for project Hrard_way_iterat2 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+gcc -o bin/hello bin/main.o
+15:21:18 **** Incremental Build of configuration Default for project Hrard_way_iterat2 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+source/main.c: In function 'main':
+source/main.c:20:9: warning: assignment from incompatible pointer type [enabled by default]
+  cur_age=names;
+         ^
+gcc -o bin/hello bin/main.o
+15:24:04 **** Incremental Build of configuration Default for project Hrard_way_iterat2 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+gcc -o bin/hello bin/main.o
+15:26:31 **** Incremental Build of configuration Default for project Hrard_way_iterat2 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+gcc -o bin/hello bin/main.o
+15:27:22 **** Incremental Build of configuration Default for project Hrard_way_iterat2 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+gcc -o bin/hello bin/main.o
+16:36:49 **** Incremental Build of configuration Default for project Hrard_way_iterat2 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+source/main.c: In function 'print_array':
+source/main.c:15:10: error: 'count' undeclared (first use in this function)
+  for( i=(count-1); i>=0; i-- ){
+          ^
+source/main.c:15:10: note: each undeclared identifier is reported only once for each function it appears in
+source/main.c:16:3: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   printf("%s has %d years alive. \n", names[i], ages[i]);
+   ^
+source/main.c: In function 'print_array_aspinter':
+source/main.c:25:3: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   printf("%s is %d years old. \n",*(cur_name+i), *(cur_age+i));
+   ^
+source/main.c: In function 'print_pointer_as_pointer':
+source/main.c:34:16: warning: assignment from incompatible pointer type [enabled by default]
+  for( cur_name = (names + count -1), cur_age = (ages+count -1);
+                ^
+source/main.c:30:6: warning: unused variable 'i' [-Wunused-variable]
+  int i=0;
+      ^
+source/main.c: In function 'print_printf_p_format':
+source/main.c:44:3: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   printf("%s is %d years old. \n",*(cur_name+i), *(cur_age+i));
+   ^
+source/main.c: In function 'main':
+source/main.c:54:9: warning: unused variable 'cur_name' [-Wunused-variable]
+  char **cur_name = names;
+         ^
+source/main.c:53:7: warning: unused variable 'cur_age' [-Wunused-variable]
+  int *cur_age = ages;
+       ^
+source/main.c:52:6: warning: unused variable 'i' [-Wunused-variable]
+  int i=0;
+      ^
+source/main.c:51:7: warning: unused variable 'count' [-Wunused-variable]
+  int  count = ( sizeof(ages) / sizeof(int) );
+       ^
+make: *** [main.o] Error 1
+makefile:11: recipe for target 'main.o' failed
+16:37:16 **** Incremental Build of configuration Default for project Hrard_way_iterat2 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+source/main.c: In function 'print_array':
+source/main.c:16:3: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   printf("%s has %d years alive. \n", names[i], ages[i]);
+   ^
+source/main.c: In function 'print_array_aspinter':
+source/main.c:25:3: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   printf("%s is %d years old. \n",*(cur_name+i), *(cur_age+i));
+   ^
+source/main.c: In function 'print_pointer_as_pointer':
+source/main.c:34:16: warning: assignment from incompatible pointer type [enabled by default]
+  for( cur_name = (names + count -1), cur_age = (ages+count -1);
+                ^
+source/main.c:30:6: warning: unused variable 'i' [-Wunused-variable]
+  int i=0;
+      ^
+source/main.c: In function 'print_printf_p_format':
+source/main.c:44:3: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   printf("%s is %d years old. \n",*(cur_name+i), *(cur_age+i));
+   ^
+source/main.c: In function 'main':
+source/main.c:54:9: warning: unused variable 'cur_name' [-Wunused-variable]
+  char **cur_name = names;
+         ^
+source/main.c:53:7: warning: unused variable 'cur_age' [-Wunused-variable]
+  int *cur_age = ages;
+       ^
+source/main.c:52:6: warning: unused variable 'i' [-Wunused-variable]
+  int i=0;
+      ^
+source/main.c:51:7: warning: unused variable 'count' [-Wunused-variable]
+  int  count = ( sizeof(ages) / sizeof(int) );
+       ^
+gcc -o bin/hello bin/main.o
+16:39:04 **** Incremental Build of configuration Default for project Hrard_way_iterat2 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+source/main.c: In function 'print_array':
+source/main.c:16:3: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   printf("%s has %d years alive. \n", names[i], ages[i]);
+   ^
+source/main.c: In function 'print_array_aspinter':
+source/main.c:25:3: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   printf("%s is %d years old. \n",*(cur_name+i), *(cur_age+i));
+   ^
+source/main.c: In function 'print_pointer_as_pointer':
+source/main.c:34:16: warning: assignment from incompatible pointer type [enabled by default]
+  for( cur_name = (names + count -1), cur_age = (ages+count -1);
+                ^
+source/main.c:30:6: warning: unused variable 'i' [-Wunused-variable]
+  int i=0;
+      ^
+source/main.c: In function 'print_printf_p_format':
+source/main.c:44:3: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   printf("%s is %d years old. \n",*(cur_name+i), *(cur_age+i));
+   ^
+source/main.c: In function 'main':
+source/main.c:51:7: warning: unused variable 'count' [-Wunused-variable]
+  int  count = ( sizeof(ages) / sizeof(int) );
+       ^
+source/main.c:50:8: warning: unused variable 'names' [-Wunused-variable]
+  char *names[] = { "Alan", "Frank", "Mary", "John", "Lisa" };
+        ^
+gcc -o bin/hello bin/main.o
+16:40:51 **** Incremental Build of configuration Default for project Hrard_way_iterat2 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+source/main.c: In function 'print_array':
+source/main.c:16:3: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   printf("%s has %d years alive. \n", names[i], ages[i]);
+   ^
+source/main.c: In function 'print_array_aspinter':
+source/main.c:25:3: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   printf("%s is %d years old. \n",*(cur_name+i), *(cur_age+i));
+   ^
+source/main.c: In function 'print_pointer_as_pointer':
+source/main.c:34:16: warning: assignment from incompatible pointer type [enabled by default]
+  for( cur_name = (names + count -1), cur_age = (ages+count -1);
+                ^
+source/main.c:30:6: warning: unused variable 'i' [-Wunused-variable]
+  int i=0;
+      ^
+source/main.c: In function 'print_printf_p_format':
+source/main.c:44:3: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   printf("%s is %d years old. \n",*(cur_name+i), *(cur_age+i));
+   ^
+source/main.c: In function 'main':
+source/main.c:52:2: warning: passing argument 1 of 'print_array' from incompatible pointer type [enabled by default]
+  print_array(names, ages, count);
+  ^
+source/main.c:12:6: note: expected 'char *' but argument is of type 'char **'
+ void print_array(char *names, int* ages, int count)
+      ^
+gcc -o bin/hello bin/main.o
+16:41:09 **** Incremental Build of configuration Default for project Hrard_way_iterat2 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+source/main.c: In function 'print_array_aspinter':
+source/main.c:25:3: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   printf("%s is %d years old. \n",*(cur_name+i), *(cur_age+i));
+   ^
+source/main.c: In function 'print_pointer_as_pointer':
+source/main.c:34:16: warning: assignment from incompatible pointer type [enabled by default]
+  for( cur_name = (names + count -1), cur_age = (ages+count -1);
+                ^
+source/main.c:30:6: warning: unused variable 'i' [-Wunused-variable]
+  int i=0;
+      ^
+source/main.c: In function 'print_printf_p_format':
+source/main.c:44:3: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   printf("%s is %d years old. \n",*(cur_name+i), *(cur_age+i));
+   ^
+gcc -o bin/hello bin/main.o
+16:41:47 **** Incremental Build of configuration Default for project Hrard_way_iterat2 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+source/main.c: In function 'print_pointer_as_pointer':
+source/main.c:30:6: warning: unused variable 'i' [-Wunused-variable]
+  int i=0;
+      ^
+gcc -o bin/hello bin/main.o
+16:41:54 **** Incremental Build of configuration Default for project Hrard_way_iterat2 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+gcc -o bin/hello bin/main.o
+16:44:14 **** Incremental Build of configuration Default for project Hrard_way_iterat2 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+gcc -o bin/hello bin/main.o
+16:46:00 **** Incremental Build of configuration Default for project Hrard_way_iterat2 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+gcc -o bin/hello bin/main.o
+16:50:33 **** Incremental Build of configuration Default for project Hrard_way_iterat2 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+source/main.c: In function 'print_printf_p_format':
+source/main.c:43:3: warning: format '%d' expects argument of type 'int', but argument 4 has type 'int *' [-Wformat=]
+   printf("0x%p -pointer 0x%p -*pointer is %d years old. \n", (cur_name+i), *(cur_name+i), (cur_age+i));
+   ^
+gcc -o bin/hello bin/main.o
+16:50:53 **** Incremental Build of configuration Default for project Hrard_way_iterat2 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+gcc -o bin/hello bin/main.o
+16:51:01 **** Incremental Build of configuration Default for project Hrard_way_iterat2 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+gcc -o bin/hello bin/main.o
+16:51:28 **** Incremental Build of configuration Default for project Hrard_way_iterat2 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+gcc -o bin/hello bin/main.o
+19:55:41 **** Incremental Build of configuration Default for project Hrard_way_iterat2 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+gcc -o bin/hello bin/main.o
+20:00:14 **** Incremental Build of configuration Default for project Hrard_way_iterat2 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+source/main.c: In function 'print_pointer_as_pointer':
+source/main.c:33:16: warning: assignment from incompatible pointer type [enabled by default]
+  for( cur_name = (names + count -1), cur_age = (ages+count -1);
+                ^
+source/main.c: In function 'main':
+source/main.c:54:2: warning: passing argument 1 of 'print_pointer_as_pointer' from incompatible pointer type [enabled by default]
+  print_pointer_as_pointer( names, ages, count );
+  ^
+source/main.c:28:6: note: expected 'char ***' but argument is of type 'char **'
+ void print_pointer_as_pointer(char ***names, int* ages, int count)
+      ^
+source/main.c:55:2: warning: passing argument 1 of 'print_printf_p_format' from incompatible pointer type [enabled by default]
+  print_printf_p_format( &names, ages, count);
+  ^
+source/main.c:38:6: note: expected 'char **' but argument is of type 'char * (*)[5]'
+ void print_printf_p_format(char **cur_name, int* cur_age, int count)
+      ^
+gcc -o bin/hello bin/main.o
+20:00:48 **** Incremental Build of configuration Default for project Hrard_way_iterat2 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+source/main.c: In function 'main':
+source/main.c:55:2: warning: passing argument 1 of 'print_printf_p_format' from incompatible pointer type [enabled by default]
+  print_printf_p_format( &names, ages, count);
+  ^
+source/main.c:38:6: note: expected 'char ***' but argument is of type 'char * (*)[5]'
+ void print_printf_p_format(char ***cur_name, int* cur_age, int count)
+      ^
+gcc -o bin/hello bin/main.o
+20:01:59 **** Incremental Build of configuration Default for project Hrard_way_iterat2 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+source/main.c: In function 'print_printf_p_format':
+source/main.c:42:9: warning: unused variable 'local_name' [-Wunused-variable]
+  char **local_name=*(cur_name);
+         ^
+source/main.c: In function 'main':
+source/main.c:56:2: warning: passing argument 1 of 'print_printf_p_format' from incompatible pointer type [enabled by default]
+  print_printf_p_format( &names, ages, count);
+  ^
+source/main.c:38:6: note: expected 'char ***' but argument is of type 'char * (*)[5]'
+ void print_printf_p_format(char ***cur_name, int* cur_age, int count)
+      ^
+gcc -o bin/hello bin/main.o
+20:02:29 **** Incremental Build of configuration Default for project Hrard_way_iterat2 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+source/main.c: In function 'main':
+source/main.c:56:2: warning: passing argument 1 of 'print_printf_p_format' from incompatible pointer type [enabled by default]
+  print_printf_p_format( &names, ages, count);
+  ^
+source/main.c:38:6: note: expected 'char ***' but argument is of type 'char * (*)[5]'
+ void print_printf_p_format(char ***cur_name, int* cur_age, int count)
+      ^
+gcc -o bin/hello bin/main.o
+20:03:51 **** Incremental Build of configuration Default for project Hrard_way_iterat2 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+source/main.c: In function 'main':
+source/main.c:56:2: warning: passing argument 1 of 'print_printf_p_format' from incompatible pointer type [enabled by default]
+  print_printf_p_format( &names, ages, count);
+  ^
+source/main.c:38:6: note: expected 'char **' but argument is of type 'char * (*)[5]'
+ void print_printf_p_format(char **cur_name, int* cur_age, int count)
+      ^
+gcc -o bin/hello bin/main.o
+20:04:37 **** Incremental Build of configuration Default for project Hrard_way_iterat2 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+source/main.c: In function 'print_printf_p_format':
+source/main.c:42:20: warning: initialization from incompatible pointer type [enabled by default]
+  char **local_name=cur_name;
+                    ^
+source/main.c: In function 'main':
+source/main.c:56:2: warning: passing argument 1 of 'print_printf_p_format' from incompatible pointer type [enabled by default]
+  print_printf_p_format( &names, ages, count);
+  ^
+source/main.c:38:6: note: expected 'char ***' but argument is of type 'char * (*)[5]'
+ void print_printf_p_format(char **cur_name[], int* cur_age, int count)
+      ^
+gcc -o bin/hello bin/main.o
+20:05:23 **** Incremental Build of configuration Default for project Hrard_way_iterat2 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+source/main.c: In function 'print_printf_p_format':
+source/main.c:42:20: warning: initialization from incompatible pointer type [enabled by default]
+  char **local_name=cur_name;
+                    ^
+source/main.c: In function 'main':
+source/main.c:56:2: warning: passing argument 1 of 'print_printf_p_format' from incompatible pointer type [enabled by default]
+  print_printf_p_format( &names, ages, count);
+  ^
+source/main.c:38:6: note: expected 'char ***' but argument is of type 'char * (*)[5]'
+ void print_printf_p_format(char ***cur_name, int* cur_age, int count)
+      ^
+gcc -o bin/hello bin/main.o
+20:05:45 **** Incremental Build of configuration Default for project Hrard_way_iterat2 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+source/main.c: In function 'print_printf_p_format':
+source/main.c:42:20: warning: initialization from incompatible pointer type [enabled by default]
+  char **local_name=cur_name;
+                    ^
+source/main.c: In function 'main':
+source/main.c:56:2: warning: passing argument 1 of 'print_printf_p_format' from incompatible pointer type [enabled by default]
+  print_printf_p_format( &names, ages, count);
+  ^
+source/main.c:38:6: note: expected 'char ***' but argument is of type 'char * (*)[5]'
+ void print_printf_p_format(char ***cur_name, int* cur_age, int count)
+      ^
+gcc -o bin/hello bin/main.o
+20:06:24 **** Incremental Build of configuration Default for project Hrard_way_iterat2 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+source/main.c: In function 'main':
+source/main.c:50:2: warning: initialization from incompatible pointer type [enabled by default]
+  char **names = { "Alan", "Frank", "Mary", "John", "Lisa" };
+  ^
+source/main.c:50:2: warning: (near initialization for 'names') [enabled by default]
+source/main.c:50:2: warning: excess elements in scalar initializer [enabled by default]
+source/main.c:50:2: warning: (near initialization for 'names') [enabled by default]
+source/main.c:50:2: warning: excess elements in scalar initializer [enabled by default]
+source/main.c:50:2: warning: (near initialization for 'names') [enabled by default]
+source/main.c:50:2: warning: excess elements in scalar initializer [enabled by default]
+source/main.c:50:2: warning: (near initialization for 'names') [enabled by default]
+source/main.c:50:2: warning: excess elements in scalar initializer [enabled by default]
+source/main.c:50:2: warning: (near initialization for 'names') [enabled by default]
+gcc -o bin/hello bin/main.o
+20:06:46 **** Incremental Build of configuration Default for project Hrard_way_iterat2 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+gcc -o bin/hello bin/main.o
+20:39:23 **** Incremental Build of configuration Default for project Hrard_way_iterat2 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+source/main.c: In function 'main':
+source/main.c:51:31: warning: initialization from incompatible pointer type [enabled by default]
+  char *pointer_for_func_input=names;
+                               ^
+source/main.c:51:8: warning: unused variable 'pointer_for_func_input' [-Wunused-variable]
+  char *pointer_for_func_input=names;
+        ^
+gcc -o bin/hello bin/main.o
+20:42:09 **** Incremental Build of configuration Default for project Hrard_way_iterat2 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+source/main.c: In function 'main':
+source/main.c:51:31: warning: initialization from incompatible pointer type [enabled by default]
+  char *pointer_for_func_input=names;
+                               ^
+gcc -o bin/hello bin/main.o
+20:42:27 **** Incremental Build of configuration Default for project Hrard_way_iterat2 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+gcc -o bin/hello bin/main.o
+20:42:48 **** Incremental Build of configuration Default for project Hrard_way_iterat2 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+gcc -o bin/hello bin/main.o
+20:46:41 **** Incremental Build of configuration Default for project Hrard_way_iterat2 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+source/main.c: In function 'print_printf_p_format':
+source/main.c:41:8: warning: unused variable 'temp_string_pointer' [-Wunused-variable]
+  char *temp_string_pointer=*cur_name;
+        ^
+gcc -o bin/hello bin/main.o
+20:46:51 **** Incremental Build of configuration Default for project Hrard_way_iterat2 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+source/main.c: In function 'print_printf_p_format':
+source/main.c:45:3: warning: format '%p' expects argument of type 'void *', but argument 3 has type 'int' [-Wformat=]
+   printf("0x%p -pointer 0x%p -*pointer is %p years old. \n", (temp_string_pointer+i), *(temp_string_pointer+i), (cur_age+i));
+   ^
+gcc -o bin/hello bin/main.o
+20:49:40 **** Build of configuration Default for project Copy of Hrard_way_iterat2 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+source/main.c: In function 'print_printf_p_format':
+source/main.c:45:3: warning: format '%p' expects argument of type 'void *', but argument 3 has type 'int' [-Wformat=]
+   printf("0x%p -pointer 0x%p -*pointer is %p years old. \n", (temp_string_pointer+i), *(temp_string_pointer+i), (cur_age+i));
+   ^
+gcc -o bin/hello bin/main.o
+22:12:35 **** Incremental Build of configuration Default for project Copy of Hrard_way_iterat2 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+gcc -o bin/hello bin/main.o
+22:46:51 **** Build of configuration Default for project Hrard_way_iterat2_ex19 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+gcc -o bin/hello bin/main.o
+22:50:29 **** Incremental Build of configuration Default for project Hrard_way_iterat2_ex19 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+gcc -o bin/hello bin/main.o
+23:14:39 **** Incremental Build of configuration Default for project Hrard_way_iterat2_ex19 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+gcc -o bin/hello bin/main.o
+23:36:52 **** Incremental Build of configuration Default for project Hrard_way_iterat2_ex19 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+gcc -o bin/hello bin/main.o
+23:37:29 **** Incremental Build of configuration Default for project Hrard_way_iterat2_ex19 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+gcc -o bin/hello bin/main.o
+23:38:52 **** Incremental Build of configuration Default for project Hrard_way_iterat2_ex19 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+gcc -o bin/hello bin/main.o
+23:40:03 **** Incremental Build of configuration Default for project Hrard_way_iterat2_ex19 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+gcc -o bin/hello bin/main.o
+23:40:10 **** Incremental Build of configuration Default for project Hrard_way_iterat2_ex19 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+gcc -o bin/hello bin/main.o
+23:40:34 **** Incremental Build of configuration Default for project Hrard_way_iterat2_ex19 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+gcc -o bin/hello bin/main.o
+23:40:38 **** Incremental Build of configuration Default for project Hrard_way_iterat2_ex19 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+gcc -o bin/hello bin/main.o
+23:05:07 **** Incremental Build of configuration Default for project Hrard_way_iterat2_ex19 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+gcc -o bin/hello bin/main.o
+23:15:30 **** Incremental Build of configuration Default for project Hrard_way_iterat2_ex19 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+gcc -o bin/hello bin/main.o
+23:24:43 **** Incremental Build of configuration Default for project Hrard_way_iterat2_ex19 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+gcc -o bin/hello bin/main.o
+23:53:10 **** Incremental Build of configuration Default for project Hrard_way_iterat2_ex19 ****
+make all 
+gcc -O0 -g3 -Wall -Map, test.map -fmessage-length=0 -c source/main.c -o bin/main.o
+gcc: error: test.map: No such file or directory
+gcc: error: unrecognized command line option '-Map,'
+makefile:11: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+23:54:03 **** Incremental Build of configuration Default for project Hrard_way_iterat2_ex19 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0, -Map source/test.map -c source/main.c -o bin/main.o
+gcc: error: argument to '-fmessage-length=' should be a non-negative integer
+gcc: error: source/test.map: No such file or directory
+gcc: error: unrecognized command line option '-Map'
+makefile:11: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+23:54:20 **** Incremental Build of configuration Default for project Hrard_way_iterat2_ex19 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+gcc -o bin/hello bin/main.o
+00:02:57 **** Incremental Build of configuration Default for project Hrard_way_iterat2_ex19 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+gcc -o bin/hello bin/main.o
+00:03:23 **** Incremental Build of configuration Default for project Hrard_way_iterat2_ex19 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+gcc -o bin/hello bin/main.o
+19:54:02 **** Build of configuration Default for project Copy of Hrard_way_iterat2_ex19_realy19 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+gcc -o bin/hello bin/main.o
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../libmingw32.a(main.o):(.text.startup+0xa7): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+make: *** [hello.exe] Error 1
+makefile:8: recipe for target 'hello.exe' failed
+19:54:55 **** Incremental Build of configuration Default for project Copy of Hrard_way_iterat2_ex19_realy19 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+gcc -o bin/hello bin/main.o
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../libmingw32.a(main.o):(.text.startup+0xa7): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+makefile:8: recipe for target 'hello.exe' failed
+make: *** [hello.exe] Error 1
+13:26:30 **** Incremental Build of configuration Default for project Copy of Hrard_way_iterat2_ex19_realy19 ****
+make all 
+makefile:10: *** insufficient number of arguments (1) to function 'addprefix'.  Stop.
+13:28:25 **** Incremental Build of configuration Default for project Copy of Hrard_way_iterat2_ex19_realy19 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c source/custom_include.c  -o bin/source/main.o bin/source/custom_include.o			
+gcc: error: bin/source/custom_include.o: No such file or directory
+makefile:21: recipe for target 'bin/source/main.o' failed
+make: *** [bin/source/main.o] Error 1
+13:37:01 **** Incremental Build of configuration Default for project Copy of Hrard_way_iterat2_ex19_realy19 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c source/custom_include.c  -o bin/source/main.o bin/source/custom_include.o			
+gcc: error: bin/source/custom_include.o: No such file or directory
+make: *** [bin/source/main.o] Error 1
+makefile:21: recipe for target 'bin/source/main.o' failed
+13:42:15 **** Incremental Build of configuration Default for project Copy of Hrard_way_iterat2_ex19_realy19 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c source/custom_include.c  -o bin/source/main.o bin/source/custom_include.o			
+gcc: error: bin/source/custom_include.o: No such file or directory
+makefile:21: recipe for target 'bin/source/main.o' failed
+make: *** [bin/source/main.o] Error 1
+13:42:20 **** Incremental Build of configuration Default for project Copy of Hrard_way_iterat2_ex19_realy19 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c source/custom_include.c -o bin/main.c bin/custom_include.c			
+gcc: error: bin/custom_include.c: No such file or directory
+makefile:22: recipe for target 'bin/main.c' failed
+make: *** [bin/main.c] Error 1
+13:44:16 **** Incremental Build of configuration Default for project Copy of Hrard_way_iterat2_ex19_realy19 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c source/custom_include.c -o bin/main.o bin/custom_include.o			
+gcc: error: bin/custom_include.o: No such file or directory
+makefile:22: recipe for target 'bin/main.o' failed
+make: *** [bin/main.o] Error 1
+13:44:20 **** Incremental Build of configuration Default for project Copy of Hrard_way_iterat2_ex19_realy19 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c source/custom_include.c -o bin/main.o bin/custom_include.o			
+gcc: error: bin/custom_include.o: No such file or directory
+makefile:22: recipe for target 'bin/main.o' failed
+make: *** [bin/main.o] Error 1
+13:46:15 **** Incremental Build of configuration Default for project Copy of Hrard_way_iterat2_ex19_realy19 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c source/custom_include.c -o bin/main.o bin/custom_include.o			
+gcc: error: bin/custom_include.o: No such file or directory
+make: *** [bin/main.o] Error 1
+makefile:22: recipe for target 'bin/main.o' failed
+13:46:42 **** Incremental Build of configuration Default for project Copy of Hrard_way_iterat2_ex19_realy19 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c source/custom_include.c -o bin/main.o bin/custom_include.o			
+gcc: error: bin/custom_include.o: No such file or directory
+makefile:22: recipe for target 'bin/main.o' failed
+make: *** [bin/main.o] Error 1
+13:47:42 **** Incremental Build of configuration Default for project Copy of Hrard_way_iterat2_ex19_realy19 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o			
+gcc -o bin/hello bin/main.o
+bin/main.o: In function `Map_init':
+D:\hardwaytest\Copy of Hrard_way_iterat2_ex19_realy19/source/main.c:119: undefined reference to `Object_new'
+D:\hardwaytest\Copy of Hrard_way_iterat2_ex19_realy19/source/main.c:120: undefined reference to `Object_new'
+D:\hardwaytest\Copy of Hrard_way_iterat2_ex19_realy19/source/main.c:121: undefined reference to `Object_new'
+D:\hardwaytest\Copy of Hrard_way_iterat2_ex19_realy19/source/main.c:122: undefined reference to `Object_new'
+D:\hardwaytest\Copy of Hrard_way_iterat2_ex19_realy19/source/main.c:125: undefined reference to `Object_new'
+bin/main.o:D:\hardwaytest\Copy of Hrard_way_iterat2_ex19_realy19/source/main.c:206: more undefined references to `Object_new' follow
+collect2.exe: error: ld returned 1 exit status
+make: *** [hello.exe] Error 1
+makefile:18: recipe for target 'hello.exe' failed
+13:48:11 **** Incremental Build of configuration Default for project Copy of Hrard_way_iterat2_ex19_realy19 ****
+make all 
+gcc -o bin/hello bin/main.o
+bin/main.o: In function `Map_init':
+D:\hardwaytest\Copy of Hrard_way_iterat2_ex19_realy19/source/main.c:119: undefined reference to `Object_new'
+D:\hardwaytest\Copy of Hrard_way_iterat2_ex19_realy19/source/main.c:120: undefined reference to `Object_new'
+D:\hardwaytest\Copy of Hrard_way_iterat2_ex19_realy19/source/main.c:121: undefined reference to `Object_new'
+D:\hardwaytest\Copy of Hrard_way_iterat2_ex19_realy19/source/main.c:122: undefined reference to `Object_new'
+D:\hardwaytest\Copy of Hrard_way_iterat2_ex19_realy19/source/main.c:125: undefined reference to `Object_new'
+bin/main.o:D:\hardwaytest\Copy of Hrard_way_iterat2_ex19_realy19/source/main.c:206: more undefined references to `Object_new' follow
+collect2.exe: error: ld returned 1 exit status
+make: *** [hello.exe] Error 1
+makefile:19: recipe for target 'hello.exe' failed
+13:48:42 **** Incremental Build of configuration Default for project Copy of Hrard_way_iterat2_ex19_realy19 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c source/custom_include.c -o bin/main.o bin/custom_include.o			
+gcc: error: bin/custom_include.o: No such file or directory
+makefile:22: recipe for target 'bin/custom_include.o' failed
+make: *** [bin/custom_include.o] Error 1
+13:49:53 **** Incremental Build of configuration Default for project Copy of Hrard_way_iterat2_ex19_realy19 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c source/custom_include.c -o bin/main.o bin/custom_include.o			
+gcc: error: bin/custom_include.o: No such file or directory
+make: *** [bin/custom_include.o] Error 1
+makefile:22: recipe for target 'bin/custom_include.o' failed
+13:50:00 **** Incremental Build of configuration Default for project Copy of Hrard_way_iterat2_ex19_realy19 ****
+make all 
+gcc -o bin/hello bin/main.o			
+bin/main.o: In function `Map_init':
+D:\hardwaytest\Copy of Hrard_way_iterat2_ex19_realy19/source/main.c:119: undefined reference to `Object_new'
+D:\hardwaytest\Copy of Hrard_way_iterat2_ex19_realy19/source/main.c:120: undefined reference to `Object_new'
+D:\hardwaytest\Copy of Hrard_way_iterat2_ex19_realy19/source/main.c:121: undefined reference to `Object_new'
+D:\hardwaytest\Copy of Hrard_way_iterat2_ex19_realy19/source/main.c:122: undefined reference to `Object_new'
+D:\hardwaytest\Copy of Hrard_way_iterat2_ex19_realy19/source/main.c:125: undefined reference to `Object_new'
+bin/main.o:D:\hardwaytest\Copy of Hrard_way_iterat2_ex19_realy19/source/main.c:206: more undefined references to `Object_new' follow
+collect2.exe: error: ld returned 1 exit status
+make: *** [hello.exe] Error 1
+makefile:19: recipe for target 'hello.exe' failed
+14:26:59 **** Incremental Build of configuration Default for project Copy of Hrard_way_iterat2_ex19_realy19 ****
+make all 
+gcc -o bin/hello bin/main.o			
+bin/main.o: In function `Map_init':
+D:\hardwaytest\Copy of Hrard_way_iterat2_ex19_realy19/source/main.c:119: undefined reference to `Object_new'
+D:\hardwaytest\Copy of Hrard_way_iterat2_ex19_realy19/source/main.c:120: undefined reference to `Object_new'
+D:\hardwaytest\Copy of Hrard_way_iterat2_ex19_realy19/source/main.c:121: undefined reference to `Object_new'
+D:\hardwaytest\Copy of Hrard_way_iterat2_ex19_realy19/source/main.c:122: undefined reference to `Object_new'
+D:\hardwaytest\Copy of Hrard_way_iterat2_ex19_realy19/source/main.c:125: undefined reference to `Object_new'
+bin/main.o:D:\hardwaytest\Copy of Hrard_way_iterat2_ex19_realy19/source/main.c:206: more undefined references to `Object_new' follow
+collect2.exe: error: ld returned 1 exit status
+makefile:19: recipe for target 'hello.exe' failed
+make: *** [hello.exe] Error 1
+14:27:41 **** Incremental Build of configuration Default for project Copy of Hrard_way_iterat2_ex19_realy19 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o			
+gcc -o bin/hello bin/main.o			
+bin/main.o: In function `Map_init':
+D:\hardwaytest\Copy of Hrard_way_iterat2_ex19_realy19/source/main.c:119: undefined reference to `Object_new'
+D:\hardwaytest\Copy of Hrard_way_iterat2_ex19_realy19/source/main.c:120: undefined reference to `Object_new'
+D:\hardwaytest\Copy of Hrard_way_iterat2_ex19_realy19/source/main.c:121: undefined reference to `Object_new'
+D:\hardwaytest\Copy of Hrard_way_iterat2_ex19_realy19/source/main.c:122: undefined reference to `Object_new'
+D:\hardwaytest\Copy of Hrard_way_iterat2_ex19_realy19/source/main.c:125: undefined reference to `Object_new'
+bin/main.o:D:\hardwaytest\Copy of Hrard_way_iterat2_ex19_realy19/source/main.c:206: more undefined references to `Object_new' follow
+collect2.exe: error: ld returned 1 exit status
+makefile:19: recipe for target 'hello.exe' failed
+make: *** [hello.exe] Error 1
+14:27:59 **** Incremental Build of configuration Default for project Copy of Hrard_way_iterat2_ex19_realy19 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c source/custom_include.c -o bin/main.o bin/custom_include.o			
+gcc: error: bin/custom_include.o: No such file or directory
+makefile:22: recipe for target 'bin/custom_include.o' failed
+make: *** [bin/custom_include.o] Error 1
+21:30:45 **** Incremental Build of configuration Default for project Copy of Hrard_way_iterat2_ex19_realy19 ****
+make all 
+make: *** No rule to make target 'mainc', needed by 'bin/main.o'.  Stop.
+21:31:34 **** Incremental Build of configuration Default for project Copy of Hrard_way_iterat2_ex19_realy19 ****
+make all 
+make: *** No rule to make target 'main.c', needed by 'bin/main.o'.  Stop.
+21:32:28 **** Incremental Build of configuration Default for project Copy of Hrard_way_iterat2_ex19_realy19 ****
+make all 
+make: *** No rule to make target 'source/custom_include.c/main.c', needed by 'bin/main.o'.  Stop.
+21:33:22 **** Incremental Build of configuration Default for project Copy of Hrard_way_iterat2_ex19_realy19 ****
+make all 
+make: *** No rule to make target 'source/custom_include.c/main.c', needed by 'bin/main.o'.  Stop.
+21:33:27 **** Incremental Build of configuration Default for project Copy of Hrard_way_iterat2_ex19_realy19 ****
+make all 
+make: *** No rule to make target 'bin/custom_include.o', needed by 'hello.exe'.  Stop.
+23:17:56 **** Incremental Build of configuration Default for project Copy of Hrard_way_iterat2_ex19_realy19 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/custom_include.c -o bin/custom_include.o	
+gcc -o bin/hello bin/main.o bin/custom_include.o			
+23:19:09 **** Incremental Build of configuration Default for project Copy of Hrard_way_iterat2_ex19_realy19 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o	
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/custom_include.c -o bin/custom_include.o	
+gcc -o bin/hello bin/main.o bin/custom_include.o			
+23:19:41 **** Incremental Build of configuration Default for project Copy of Hrard_way_iterat2_ex19_realy19 ****
+make all 
+gcc -o bin/hello bin/main.o bin/custom_include.o			
+12:12:03 **** Incremental Build of configuration Default for project Copy of Hrard_way_iterat2_ex19_realy19 ****
+make all 
+gcc -o bin/hello bin/main.o bin/custom_include.o			

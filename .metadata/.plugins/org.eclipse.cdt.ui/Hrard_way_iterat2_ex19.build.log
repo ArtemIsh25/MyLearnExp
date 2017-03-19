@@ -1,0 +1,7 @@
+00:03:23 **** Incremental Build of configuration Default for project Hrard_way_iterat2_ex19 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+gcc -o bin/hello bin/main.o
+
+00:03:24 Build Finished (took 1s.218ms)
+

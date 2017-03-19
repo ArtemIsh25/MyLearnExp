@@ -1,0 +1,11 @@
+20:46:51 **** Incremental Build of configuration Default for project Hrard_way_iterat2 ****
+make all 
+gcc -O0 -g3 -Wall -fmessage-length=0 -c source/main.c -o bin/main.o
+source/main.c: In function 'print_printf_p_format':
+source/main.c:45:3: warning: format '%p' expects argument of type 'void *', but argument 3 has type 'int' [-Wformat=]
+   printf("0x%p -pointer 0x%p -*pointer is %p years old. \n", (temp_string_pointer+i), *(temp_string_pointer+i), (cur_age+i));
+   ^
+gcc -o bin/hello bin/main.o
+
+20:46:52 Build Finished (took 585ms)
+
