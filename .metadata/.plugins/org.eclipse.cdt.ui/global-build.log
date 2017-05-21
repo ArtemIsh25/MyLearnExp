@@ -673,3 +673,99 @@ gcc -o bin/hello bin/main.o bin/custom_include.o
 12:12:03 **** Incremental Build of configuration Default for project Copy of Hrard_way_iterat2_ex19_realy19 ****
 make all 
 gcc -o bin/hello bin/main.o bin/custom_include.o			
+19:47:09 **** Build of configuration Default for project StackAndHeapTest ****
+all all 
+Cannot run program "all": Launching failed
+
+Error: Program "all" not found in PATH
+PATH=[C:/Program Files/Java/jre1.8.0_91/bin/server;C:/Program Files/Java/jre1.8.0_91/bin;C:/Program Files/Java/jre1.8.0_91/lib/amd64;C:\Program Files (x86)\Integrity\IntegrityClient10\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Seapine\Surround SCM;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Microsoft Windows Performance Toolkit\;C:\PROGRA~2\INTEGR~1\Toolkit\mksnt; C:\Program Files\MinGW\bin;C:\Users\artem.ishutin\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\nodejs\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;D:\Projects\PythonNew\Scripts\;D:\Projects\PythonNew;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseGit\bin;;D:\Projects\ProgramFiles\Microsoft VS Code\bin;D:\Projects\my\Porting Task\SomeTools\GNUstep\bin;D:\Projects\my\Porting\SomeTools\GNUstep\msys\opt\windows_64\bin;D:\Projects\my\Ctests\eclipse;]
+19:49:25 **** Incremental Build of configuration Default for project StackAndHeapTest ****
+all all 
+Cannot run program "all": Launching failed
+
+Error: Program "all" not found in PATH
+PATH=[C:/Program Files/Java/jre1.8.0_91/bin/server;C:/Program Files/Java/jre1.8.0_91/bin;C:/Program Files/Java/jre1.8.0_91/lib/amd64;C:\Program Files (x86)\Integrity\IntegrityClient10\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Seapine\Surround SCM;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Microsoft Windows Performance Toolkit\;C:\PROGRA~2\INTEGR~1\Toolkit\mksnt; C:\Program Files\MinGW\bin;C:\Users\artem.ishutin\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\nodejs\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;D:\Projects\PythonNew\Scripts\;D:\Projects\PythonNew;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseGit\bin;;D:\Projects\ProgramFiles\Microsoft VS Code\bin;D:\Projects\my\Porting Task\SomeTools\GNUstep\bin;D:\Projects\my\Porting\SomeTools\GNUstep\msys\opt\windows_64\bin;D:\Projects\my\Ctests\eclipse;]
+20:00:54 **** Incremental Build of configuration Default for project Hrard_way_iterat2 ****
+all.cmd all 
+'make.exe' is not recognized as an internal or external command,
+operable program or batch file.
+20:01:28 **** Incremental Build of configuration Default for project StackAndHeapTest ****
+all.cmd all 
+
+D:\Projects\my\Ctests\MyLearnExp\StackAndHeapTest>REM @echo off 
+
+D:\Projects\my\Ctests\MyLearnExp\StackAndHeapTest>set PATH=D:\Projects\my\Ctests\MyLearnExp\mingw-w64\mingw64\bin 
+
+D:\Projects\my\Ctests\MyLearnExp\StackAndHeapTest>if all == clean (mingw32-make.exe clean -f Makefile  ) 
+
+D:\Projects\my\Ctests\MyLearnExp\StackAndHeapTest>if all == all (make.exe all -f Makefile -silent  ) 
+'make.exe' is not recognized as an internal or external command,
+operable program or batch file.
+20:01:52 **** Incremental Build of configuration Default for project StackAndHeapTest ****
+all.cmd all 
+
+D:\Projects\my\Ctests\MyLearnExp\StackAndHeapTest>REM @echo off 
+
+D:\Projects\my\Ctests\MyLearnExp\StackAndHeapTest>set PATH=D:\Projects\my\Ctests\MyLearnExp\mingw-w64\mingw64\bin 
+
+D:\Projects\my\Ctests\MyLearnExp\StackAndHeapTest>if all == clean (mingw32-make.exe clean -f Makefile  ) 
+
+D:\Projects\my\Ctests\MyLearnExp\StackAndHeapTest>if all == all (mingw32-make.exe all -f Makefile -silent  ) 
+Assembler messages:
+Fatal error: can't create bin/main.o: No such file or directory
+gcc: error: bin/main.o: No such file or directory
+gcc: fatal error: no input files
+compilation terminated.
+20:02:27 **** Incremental Build of configuration Default for project StackAndHeapTest ****
+all.cmd all 
+Assembler messages:
+Fatal error: can't create bin/main.o: No such file or directory
+gcc: error: bin/main.o: No such file or directory
+gcc: fatal error: no input files
+compilation terminated.
+20:06:29 **** Incremental Build of configuration Default for project Hrard_way_iterat2 ****
+all.cmd all 
+'make.exe' is not recognized as an internal or external command,
+operable program or batch file.
+20:06:29 **** Incremental Build of configuration Default for project StackAndHeapTest ****
+all.cmd all 
+Assembler messages:
+Fatal error: can't create bin/main.o: No such file or directory
+gcc: error: bin/main.o: No such file or directory
+gcc: fatal error: no input files
+compilation terminated.
+20:13:33 **** Incremental Build of configuration Default for project Hrard_way_iterat2 ****
+all.cmd all 
+'make.exe' is not recognized as an internal or external command,
+operable program or batch file.
+20:13:34 **** Incremental Build of configuration Default for project StackAndHeapTest ****
+all.cmd all 
+source/main.c: In function 'main':
+source/main.c:18:9: warning: unused variable 'i' [-Wunused-variable]
+     int i = 0;
+         ^
+source/main.c:17:9: warning: unused variable 'count' [-Wunused-variable]
+     int count = argc - 1;
+         ^~~~~
+20:13:43 **** Incremental Build of configuration Default for project Hrard_way_iterat2 ****
+all.cmd all 
+'make.exe' is not recognized as an internal or external command,
+operable program or batch file.
+20:13:44 **** Incremental Build of configuration Default for project StackAndHeapTest ****
+all.cmd all 
+source/main.c: In function 'main':
+source/main.c:18:9: warning: unused variable 'i' [-Wunused-variable]
+     int i = 0;
+         ^
+source/main.c:17:9: warning: unused variable 'count' [-Wunused-variable]
+     int count = argc - 1;
+         ^~~~~
+20:27:23 **** Incremental Build of configuration Default for project StackAndHeapTest ****
+all.cmd all 
+source/main.c: In function 'main':
+source/main.c:19:9: warning: unused variable 'i' [-Wunused-variable]
+     int i = 0;
+         ^
+source/main.c:18:9: warning: unused variable 'count' [-Wunused-variable]
+     int count = argc - 1;
+         ^~~~~

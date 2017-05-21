@@ -1,0 +1,12 @@
+20:27:23 **** Incremental Build of configuration Default for project StackAndHeapTest ****
+all.cmd all 
+source/main.c: In function 'main':
+source/main.c:19:9: warning: unused variable 'i' [-Wunused-variable]
+     int i = 0;
+         ^
+source/main.c:18:9: warning: unused variable 'count' [-Wunused-variable]
+     int count = argc - 1;
+         ^~~~~
+
+20:27:24 Build Finished (took 1s.268ms)
+

@@ -23,8 +23,9 @@
 		</list>
 	</section>
 	<section name="PreferencesImportWizard">
-		<item value="C:\Users\Archer\Downloads\eclipse-ui-theme-master\eclipse-ui-theme-master\com.github.eclipseuitheme.themes.plugin\bin\color-scheme\RainbowDrops.epf" key=""/>
+		<item value="D:\Projects\my\Ctests\EclipseCodeStyle.epf" key=""/>
 		<list key="WizardPreferencesExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="D:\Projects\my\Ctests\EclipseCodeStyle.epf"/>
 			<item value="C:\Users\Archer\Downloads\eclipse-ui-theme-master\eclipse-ui-theme-master\com.github.eclipseuitheme.themes.plugin\bin\color-scheme\RainbowDrops.epf"/>
 		</list>
 	</section>
